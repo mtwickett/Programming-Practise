@@ -1,0 +1,12 @@
+[Codewars kata](https://www.codewars.com/kata/5ff6060ed14f4100106d8e6f)
+
+def uncensor(infected, discovered):
+    cured = []
+    index = 0
+    for letter in infected:
+        if letter =='*':
+            cured.append(discovered[index])
+            index += 1
+        else:
+            cured.append(letter)
+    return ''.join(cured)
