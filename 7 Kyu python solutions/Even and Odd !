@@ -1,0 +1,20 @@
+[Kata Link](https://www.codewars.com/kata/594adadee075005308000122)
+
+def even_and_odd(n):
+    num_list = [int(i) for i in str(n)]
+    ne = []
+    no = []
+    for i in num_list:
+        if i % 2 == 0:
+            ne.append(str(i))
+        else:
+            no.append(str(i))
+    if not ne:
+        ne = 0
+    else:
+        ne = int(''.join(ne))
+    if not no:
+        no = 0
+    else:
+        no = int(''.join(no))
+    return ne, no
