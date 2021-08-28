@@ -1,18 +1,10 @@
-/* Given the table below:
+/* Given the following table 'decimals':
 
-** names table schema **
-
+decimals table schema
 id
-prefix
-first
-last
-suffix
-Your task is to use a select statement to return a single column table containing the full title of the person (concatenate all columns together except id), as follows:
-
-** output table schema **
-
-title
-Don't forget to add spaces. */
+number1
+number2
+Return a table with a single column towardzero where the values are the result of number1 + number2 truncated towards zero. */
 
 SELECT TRUNC(number1 + number2) AS towardzero
 FROM decimals
