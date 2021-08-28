@@ -1,6 +1,6 @@
-You are the owner of the Grocery Store. All your products are in the database, that you have created after CodeWars SQL excercises!:)
+/* You are the owner of the Grocery Store. All your products are in the database, that you have created after CodeWars SQL excercises!:)
 
-/* You care about local market, and want to check how many products come from United States of America or Canada.
+You care about local market, and want to check how many products come from United States of America or Canada.
 
 Please use SELECT statement and IN to filter out other origins.
 
