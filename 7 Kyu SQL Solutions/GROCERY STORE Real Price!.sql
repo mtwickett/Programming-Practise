@@ -1,6 +1,7 @@
 /* You are the owner of the Grocery Store. All your products are in the database, that you have created after CodeWars SQL exercises! :)
 
-Customer often need to now how much really they pay for the products. Manufacturers make different sizes of same product so it is hard to compare prices, sometimes they make packages look big, but the weight of the product is small.
+Customer often need to now how much really they pay for the products. Manufacturers make different sizes of same product so it is hard to compare prices,
+sometimes they make packages look big, but the weight of the product is small.
 
 Make a SELECT query which will tell the price per kg of the product.
 
